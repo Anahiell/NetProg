@@ -44,6 +44,13 @@ namespace ClientTcp
         private async Task Authenticate()
         {
             //отправка запроса на аутендификацию
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("подсказка user:user или admin:admin");
+            Console.ForegroundColor= ConsoleColor.White;
+            Console.WriteLine("Enter username:");
+            clientId = Console.ReadLine();
+            Console.WriteLine("Enter password:");
+            password = Console.ReadLine();
             string loginReq = $"login:{clientId}:{password}";
             await SendMess(loginReq);
 
@@ -52,30 +59,33 @@ namespace ClientTcp
             if (response == "login:success")
             {
                 Console.WriteLine($"Authentication successful");
-                Console.ReadKey();
             }
             else
             {
                 Console.WriteLine($"Authentication failed");
-                Console.ReadKey();
             }
         }
         private async Task GetQuotes()
         {
-            //запрос на цитаты
+            // Запрос на цитаты
             for (int i = 0; i < 3; i++)
             {
+                // Отправка запроса на цитату
                 await SendMess("get_quote");
-                Console.ReadKey();
 
-                //ответ
+                // Ответ
                 string quote = await ReceiveMess();
-                Console.WriteLine($"Quote{i + 1}:{quote}");
+                Console.WriteLine($"Quote {i + 1}: {quote}");
+
+                // Пауза перед отправкой следующего запроса 
+                Console.WriteLine("Press ENTER to get the next quote...");
+                Console.ReadLine();
             }
         }
         private async Task Exit()
         {
             //отправка запроса для окончания
+            Console.WriteLine("EXIT");
             await SendMess("exit");
 
             //ответ
@@ -85,6 +95,9 @@ namespace ClientTcp
             //закрытие
             tcpClient.Close();
             Console.WriteLine("Press Enter to exit...");
+            Console.ReadLine();
+
+            Console.WriteLine("Сервер отключился. Нажмите Enter для выхода...");
             Console.ReadLine();
         }
         private async Task SendMess(string mess)

@@ -5,3 +5,10 @@ C:\Users\Monkiell\source\repos\TCP_UDP_HMW\TCP_UDP_HMW\obj\Debug\TCP_UDP_HMW.csp
 C:\Users\Monkiell\source\repos\TCP_UDP_HMW\TCP_UDP_HMW\obj\Debug\TCP_UDP_HMW.csproj.CoreCompileInputs.cache
 C:\Users\Monkiell\source\repos\TCP_UDP_HMW\TCP_UDP_HMW\obj\Debug\TCP_UDP_HMW.exe
 C:\Users\Monkiell\source\repos\TCP_UDP_HMW\TCP_UDP_HMW\obj\Debug\TCP_UDP_HMW.pdb
+C:\Users\user\Desktop\сетквое\NetProg\TCP_UDP_HMW\bin\Debug\TCP_UDP_HMW.exe.config
+C:\Users\user\Desktop\сетквое\NetProg\TCP_UDP_HMW\bin\Debug\TCP_UDP_HMW.exe
+C:\Users\user\Desktop\сетквое\NetProg\TCP_UDP_HMW\bin\Debug\TCP_UDP_HMW.pdb
+C:\Users\user\Desktop\сетквое\NetProg\TCP_UDP_HMW\obj\Debug\TCP_UDP_HMW.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\сетквое\NetProg\TCP_UDP_HMW\obj\Debug\TCP_UDP_HMW.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\сетквое\NetProg\TCP_UDP_HMW\obj\Debug\TCP_UDP_HMW.exe
+C:\Users\user\Desktop\сетквое\NetProg\TCP_UDP_HMW\obj\Debug\TCP_UDP_HMW.pdb

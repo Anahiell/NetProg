@@ -16,7 +16,7 @@ namespace TCP_UDP_HMW
             int port = 8888;
             // Запуск сервера
             Process serverProcess = new Process();
-            serverProcess.StartInfo.FileName = @"C:\\Users\\Monkiell\\source\\repos\\TCP_UDP_HMW\\Server\\bin\\Debug\\Server.exe"; // Замените на фактический путь
+            serverProcess.StartInfo.FileName = @"C:\Users\user\Desktop\сетквое\NetProg\Server\bin\Debug\\Server.exe"; // Замените на фактический путь
             serverProcess.StartInfo.Arguments = $"{ipAddress} {port}";
             serverProcess.Start();
 
@@ -24,13 +24,13 @@ namespace TCP_UDP_HMW
 
             // Запуск первого клиента
             Process client1Process = new Process();
-            client1Process.StartInfo.FileName = @"C:\\Users\\Monkiell\\source\\repos\\TCP_UDP_HMW\\ClientTcp\\bin\\Debug\\ClientTcp.exe"; // Замените на фактический путь
+            client1Process.StartInfo.FileName = @"C:\Users\user\Desktop\сетквое\NetProg\ClientTcp\bin\Debug\\ClientTcp.exe"; // Замените на фактический путь
             client1Process.StartInfo.Arguments = $"{ipAddress} {port}";
             client1Process.Start();
 
             // Запуск второго клиента
             Process client2Process = new Process();
-            client2Process.StartInfo.FileName = @"C:\\Users\\Monkiell\\source\\repos\\TCP_UDP_HMW\\ClientTcp\\bin\\Debug\\ClientTcp.exe"; // Замените на фактический путь
+            client2Process.StartInfo.FileName = @"C:\Users\user\Desktop\сетквое\NetProg\ClientTcp\bin\Debug\\ClientTcp.exe"; // Замените на фактический путь
             client2Process.StartInfo.Arguments = $"{ipAddress} {port}";
             client2Process.Start();
 
