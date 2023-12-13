@@ -22,22 +22,15 @@ namespace TCP_UDP_HMW
 
             await Task.Delay(2000);
 
-            // Запуск первого клиента
-            Process client1Process = new Process();
-            client1Process.StartInfo.FileName = @"C:\Users\user\Desktop\сетквое\NetProg\ClientTcp\bin\Debug\\ClientTcp.exe"; // Замените на фактический путь
-            client1Process.StartInfo.Arguments = $"{ipAddress} {port}";
-            client1Process.Start();
-
-            // Запуск второго клиента
-            Process client2Process = new Process();
-            client2Process.StartInfo.FileName = @"C:\Users\user\Desktop\сетквое\NetProg\ClientTcp\bin\Debug\\ClientTcp.exe"; // Замените на фактический путь
-            client2Process.StartInfo.Arguments = $"{ipAddress} {port}";
-            client2Process.Start();
+            // Запуск первого WPF клиента
+            Process wpfClientProcess1 = new Process();
+            wpfClientProcess1.StartInfo.FileName = @"C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\bin\Debug\RCP_Game.exe";
+            wpfClientProcess1.StartInfo.Arguments = $"{ipAddress} {port}";
+            wpfClientProcess1.Start();
 
             // Ожидание завершения всех процессов
             serverProcess.WaitForExit();
-            client1Process.WaitForExit();
-            client2Process.WaitForExit();
+            wpfClientProcess1.WaitForExit();
         }
     }
 }

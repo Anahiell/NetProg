@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\bin\Debug\RCP_Game.exe.config
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\bin\Debug\RCP_Game.exe
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\bin\Debug\RCP_Game.pdb
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\RCP_Game.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\App.g.cs
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\RCP_Game_MarkupCompile.cache
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\RCP_Game_MarkupCompile.lref
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\RCP_Game.g.resources
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\RCP_Game.Properties.Resources.resources
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\RCP_Game.csproj.GenerateResource.cache
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\RCP_Game.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\RCP_Game.exe
+C:\Users\user\Desktop\сетквое\NetProg\RCP_Game\obj\Debug\RCP_Game.pdb
