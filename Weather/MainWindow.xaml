@@ -1,0 +1,19 @@
+﻿<Window x:Class="Weather.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Weather"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <ComboBox x:Name="cityComboBox" Width="200" Margin="0,0,0,10">
+                <ComboBoxItem Content="Odessa"/>
+                <ComboBoxItem Content="Kiev"/>
+            </ComboBox>
+            <Button Content="Get Weather" Width="100" Height="30" Click="Button_Click"/>
+            <TextBlock x:Name="weatherResultTextBlock" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>

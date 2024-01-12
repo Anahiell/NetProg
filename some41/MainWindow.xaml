@@ -1,0 +1,23 @@
+﻿<Window x:Class="some41.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:some41"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <ComboBox x:Name="searchEngineComboBox" Width="100">
+                    <ComboBoxItem Content="Google"/>
+                    <ComboBoxItem Content="Bing"/>
+                </ComboBox>
+                <TextBox x:Name="searchTextBox" Width="300" Margin="0,0,0,10"/>
+                <Button Content="Search" Width="80" Height="30" Click="SearchButton_Click"/>
+                <Button Content="Image Search" Width="100" Height="30" Click="ImageSearchButton_Click"/>
+            </StackPanel>
+            <WebBrowser x:Name="resultWebBrowser" Height="300" Width="600" />
+        </StackPanel>
+    </Grid>
+</Window>

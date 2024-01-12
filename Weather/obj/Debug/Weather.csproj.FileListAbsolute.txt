@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\some41\Weather\bin\Debug\Weather.exe.config
+C:\Users\user\source\repos\some41\Weather\bin\Debug\Weather.exe
+C:\Users\user\source\repos\some41\Weather\bin\Debug\Weather.pdb
+C:\Users\user\source\repos\some41\Weather\obj\Debug\Weather.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\some41\Weather\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\some41\Weather\obj\Debug\App.g.cs
+C:\Users\user\source\repos\some41\Weather\obj\Debug\Weather_MarkupCompile.cache
+C:\Users\user\source\repos\some41\Weather\obj\Debug\Weather_MarkupCompile.lref
+C:\Users\user\source\repos\some41\Weather\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\some41\Weather\obj\Debug\Weather.g.resources
+C:\Users\user\source\repos\some41\Weather\obj\Debug\Weather.Properties.Resources.resources
+C:\Users\user\source\repos\some41\Weather\obj\Debug\Weather.csproj.GenerateResource.cache
+C:\Users\user\source\repos\some41\Weather\obj\Debug\Weather.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\some41\Weather\obj\Debug\Weather.exe
+C:\Users\user\source\repos\some41\Weather\obj\Debug\Weather.pdb
